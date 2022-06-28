@@ -52,7 +52,7 @@ export const Form = () => {
             className={styles.form}
             onSubmit={handleSubmit}
         >
-            <h3>ACCESO RESTRINGIDO</h3>
+            <h3>RESTRINGIDO</h3>
             <input
                 type="email"
                 className={styles.field_text}
