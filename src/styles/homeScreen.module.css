@@ -1,0 +1,132 @@
+.mainContainer {
+    width: 100vw;
+    min-height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    width: 1300px;
+    margin: auto;
+    height: 100%;
+    display: flex;
+}
+
+.header {
+    border-bottom: 2px solid #ccc;
+    margin: auto;
+    margin-bottom: 20px;
+    /* width: 1250px; */
+    height: 75px;
+}
+.banner {
+    background-color: 	#00629B;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;    width: 1300px;
+    margin:auto;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-bottom: 20px;
+    height:100px;
+}
+.logoImg {
+    height: 100%;
+}
+
+.title {
+    font-weight: bold;
+    text-transform: uppercase;
+    color:	#fffe;
+}
+
+.body {
+    /* margin:20px 0px; */
+    width: 100%;
+    display: flex;
+}
+
+.mainContent {
+    width: 70%;
+    height: 100vh;
+    /* background-color: red; */
+}
+
+.aside {
+    width: 30%;
+    height: 100vh;
+}
+
+.imagesContainer {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    /* background-color: yellow; */
+}
+
+.extraContainer {
+    height: 40vh;
+    /* background-color: brown; */
+}
+
+.footer {
+    background-color: #00629B;
+    border-top: 2px solid #ccc;
+    color:#fffe;
+    display: flex;
+    margin-top:20px;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+.socialContainer {
+}
+.iconsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.socialLogo {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+.proyectDescription {
+    padding:10px 30px;
+}
+.functionalities {
+    padding:10px 30px;
+}
+.link {
+    text-decoration:none;
+    color:black;
+}
+.listItem {
+    margin:8px 0px;
+}
+.subtitle {
+    color:#00629B;
+}
+.map{
+    width:100%;
+    height:100%;
+}
+.photo {
+    width: 95%;
+    border-radius: 5px;
+}
+.galeryLink {
+    padding-top: 50px;
+}
+.ramiContainer {
+    width:100%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+.rami {
+    width: 80%;
+    height: 100%;
+    border-radius: 10px;
+    margin-left: 30px;
+}

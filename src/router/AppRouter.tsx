@@ -6,6 +6,7 @@ import { AuthState } from "../interfaces/interfaces";
 import { LoginScreen } from "../pages/LoginScreen";
 import { auth as authSesion } from "../firebase/firebase.config";
 import { ControllerScreeen } from "../pages/ControllerScreen";
+import { HomeScreen } from "../pages/HomeScreen";
 
 const initialState = {
     uid: "",
@@ -40,7 +41,7 @@ export const AppRouter = () => {
         }}>
             <BrowserRouter>
                 <Routes>
-                    <Route path="/" element={<h1>Home page</h1>} />
+                    <Route path="/" element={<HomeScreen />} />
                     <Route path="/auth" element={
 
                         isAuthentificated ?
